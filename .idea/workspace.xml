@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe019b86-e2f4-42b1-8ee2-05e5eb8a6316" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/abdel/model/Member.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demoAbdel.iml" />
-    </list>
+    <list default="true" id="fe019b86-e2f4-42b1-8ee2-05e5eb8a6316" name="Default" comment="" />
     <ignored path="demoAbdel.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -84,10 +81,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MemberListProducer.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MemberListProducer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fr/abdel/data/MemberListProducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="12" selection-start="784" selection-end="784" vertical-scroll-proportion="0.23943663" vertical-offset="0" max-vertical-offset="923">
+            <state line="26" column="12" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MemberResourceRESTService.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fr/abdel/rest/MemberResourceRESTService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="44" selection-start="651" selection-end="651" vertical-scroll-proportion="0.33152762" vertical-offset="0" max-vertical-offset="923">
               <folding />
             </state>
           </provider>
@@ -658,11 +664,6 @@
         <state line="15" column="13" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/abdel/rest/MemberResourceRESTService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="26" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/abdel/util/Resources.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="69" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578" />
@@ -719,7 +720,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/abdel/data/MemberListProducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="12" selection-start="784" selection-end="784" vertical-scroll-proportion="0.23943663" vertical-offset="0" max-vertical-offset="923">
+        <state line="26" column="12" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/abdel/rest/MemberResourceRESTService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="44" selection-start="651" selection-end="651" vertical-scroll-proportion="0.33152762" vertical-offset="0" max-vertical-offset="923">
           <folding />
         </state>
       </provider>
