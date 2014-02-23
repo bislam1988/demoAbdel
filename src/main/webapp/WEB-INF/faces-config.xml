@@ -1,14 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- This file is not required if you don't need any extra configuration. -->
-<faces-config version="2.0" xmlns="http://java.sun.com/xml/ns/javaee"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="
-        http://java.sun.com/xml/ns/javaee
-        http://java.sun.com/xml/ns/javaee/web-facesconfig_2_0.xsd">
+<faces-config
+        xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+    http://java.sun.com/xml/ns/javaee/web-facesconfig_2_0.xsd"
+        version="2.0">
 
-   <!-- This descriptor activates the JSF 2.0 Servlet -->
+    <!--
+    <application>
+        <message-bundle>resources.application</message-bundle>
+        <locale-config>
+            <default-locale>en</default-locale>
+        </locale-config>
+    </application>
+       -->
+    <!-- Pour la session d'affichage -->
+    <managed-bean>
+        <managed-bean-name>personne</managed-bean-name>
+        <managed-bean-class>fr.abdel.bean.PersonneBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+        <managed-property>
+            <property-name>personneBo</property-name>
+            <value>#{personneBo}</value>
+        </managed-property>
+    </managed-bean>
 
-   <!-- Write your navigation rules here. You are encouraged to use CDI for 
-      creating @Named managed beans. -->
+    <managed-bean>
+        <managed-bean-name>Bean</managed-bean-name>
+        <managed-bean-class>fr.abdel.bean.PersonneBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
 
 </faces-config>

@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
 	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
-	<bean id="usersBo" class="com.abdess.customer.bo.impl.UsersBoImpl">
-		<property name="usersDao" ref="usersDao" />
-	</bean>
+    <bean id="personneBo" class="fr.abdel.bo.impl.PersonneBoImpl">
+        <property name="personneDao" ref="personneDao"/>
+    </bean>
 
-	<bean id="usersDao" class="com.abdess.customer.dao.impl.UsersDaoImpl">
-		<property name="sessionFactory" ref="sessionFactory"></property>
-	</bean>
-
-	<bean id="villeBo" class="com.abdess.customer.bo.impl.VilleBoImpl">
-		<property name="villeDao" ref="villeDao" />
-	</bean>
-
-	<bean id="villeDao" class="com.abdess.customer.dao.impl.VilleDaoImpl">
-		<property name="sessionFactory" ref="sessionFactory"></property>
-	</bean>
+    <bean id="personneDao" class="fr.abdel.dao.impl.PersonneDaoImpl">
+        <property name="sessionFactory" ref="sessionFactory"></property>
+    </bean>
 
 </beans>

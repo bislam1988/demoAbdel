@@ -1,11 +1,8 @@
 package fr.abdel.test;
 
-import static org.junit.Assert.assertNotNull;
-
-import java.util.logging.Logger;
-
-import javax.inject.Inject;
-
+import fr.abdel.controller.MemberRegistration;
+import fr.abdel.model.Member;
+import fr.abdel.util.Resources;
 import org.jboss.arquillian.container.test.api.Deployment;
 import org.jboss.arquillian.junit.Arquillian;
 import org.jboss.shrinkwrap.api.Archive;
@@ -15,9 +12,10 @@ import org.jboss.shrinkwrap.api.spec.WebArchive;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import fr.abdel.controller.MemberRegistration;
-import fr.abdel.model.Member;
-import fr.abdel.util.Resources;
+import javax.inject.Inject;
+import java.util.logging.Logger;
+
+import static org.junit.Assert.assertNotNull;
 
 @RunWith(Arquillian.class)
 public class MemberRegistrationTest {
@@ -26,7 +24,7 @@ public class MemberRegistrationTest {
       return ShrinkWrap.create(WebArchive.class, "test.war")
             .addClasses(Member.class, MemberRegistration.class, Resources.class)
             .addAsResource("META-INF/persistence.xml", "META-INF/persistence.xml")
-            .addAsWebInfResource(EmptyAsset.INSTANCE, "beans.xml");
+            .addAsWebInfResource(EmptyAsset.INSTANCE, "ManagerBean.xml");
    }
 
    @Inject

@@ -75,5 +75,39 @@
                href="#{request.contextPath}/rest/members">/rest/members</a>
          </f:facet>
       </h:dataTable>
+
+       <!-- Personne -->
+       <h2>Personne by Abdel</h2>
+       <h:dataTable value="#{personne.listerPersonne()}" var="p">
+
+           <h:column>
+               <f:facet name="header">
+                   Personne ID
+               </f:facet>
+               #{p.id}
+           </h:column>
+
+           <h:column>
+               <f:facet name="header">
+                   Email
+               </f:facet>
+               #{p.email}
+           </h:column>
+
+           <h:column>
+               <f:facet name="header">
+                   Nom
+               </f:facet>
+               #{p.nom}
+           </h:column>
+
+           <h:column>
+               <f:facet name="header">
+                   Prenom
+               </f:facet>
+               #{p.prenom}
+           </h:column>
+
+       </h:dataTable>
    </ui:define>
 </ui:composition>
