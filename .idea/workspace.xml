@@ -1,27 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe019b86-e2f4-42b1-8ee2-05e5eb8a6316" name="Default" comment="[evol] Initilisation la gestion de personne + EJBTransactionRolledbackException">
+    <list default="true" id="fe019b86-e2f4-42b1-8ee2-05e5eb8a6316" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/demoAbdel.war" afterPath="$PROJECT_DIR$/target/demoAbdel.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/fr/abdel/HibernateSessionFactory.xml" afterPath="$PROJECT_DIR$/src/main/resources/fr/abdel/HibernateSessionFactory.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/fr/abdel/ManagerBean.xml" afterPath="$PROJECT_DIR$/src/main/resources/fr/abdel/ManagerBean.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/fr/abdel/test/MemberRegistrationTest.java" afterPath="$PROJECT_DIR$/src/test/java/fr/abdel/test/MemberRegistrationTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/abdel/rest/MemberResourceRESTService.java" afterPath="$PROJECT_DIR$/src/main/java/fr/abdel/rest/MemberResourceRESTService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/abdel/model/Personne.java" afterPath="$PROJECT_DIR$/src/main/java/fr/abdel/model/Personne.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/abdel/bean/PersonneBean.java" afterPath="$PROJECT_DIR$/src/main/java/fr/abdel/bean/PersonneBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/abdel/bo/PersonneBo.java" afterPath="$PROJECT_DIR$/src/main/java/fr/abdel/bo/PersonneBo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/abdel/bo/impl/PersonneBoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/fr/abdel/bo/impl/PersonneBoImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/abdel/dao/PersonneDao.java" afterPath="$PROJECT_DIR$/src/main/java/fr/abdel/dao/PersonneDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/abdel/dao/impl/PersonneDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/fr/abdel/dao/impl/PersonneDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoAbdel.iml" afterPath="$PROJECT_DIR$/demoAbdel.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="demoAbdel.iws" />
@@ -108,22 +92,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/fr/abdel/dao/impl/PersonneDaoImpl.java" line="18" class="fr.abdel.dao.impl.PersonneDaoImpl" package="fr.abdel.dao.impl">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/fr/abdel/dao/impl/PersonneDaoImpl.java" line="19" class="fr.abdel.dao.impl.PersonneDaoImpl" package="fr.abdel.dao.impl">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/fr/abdel/dao/impl/PersonneDaoImpl.java" line="31" class="fr.abdel.dao.impl.PersonneDaoImpl" package="fr.abdel.dao.impl">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -148,49 +117,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PersonneDaoImpl.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PersonneDaoImpl.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/fr/abdel/dao/impl/PersonneDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+            <state line="36" column="0" selection-start="1123" selection-end="1123" vertical-scroll-proportion="1.167939" vertical-offset="0" max-vertical-offset="714">
               <folding>
-                <element signature="e#555#565#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="MemberListProducer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fr/abdel/data/MemberListProducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="280" column="22" selection-start="10585" selection-end="10585" vertical-scroll-proportion="0.882662" vertical-offset="4256" max-vertical-offset="7310">
+            <state line="37" column="50" selection-start="1082" selection-end="1082" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="663">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Personne.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/fr/abdel/model/Personne.java">
+      <file leaf-file-name="MemberRegistration.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fr/abdel/controller/MemberRegistration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="8" selection-start="8" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#519#520#0" expanded="false" />
-                <element signature="e#544#545#0" expanded="false" />
-                <element signature="e#578#579#0" expanded="false" />
-                <element signature="e#606#607#0" expanded="false" />
-                <element signature="e#666#667#0" expanded="false" />
-                <element signature="e#694#695#0" expanded="false" />
-                <element signature="e#736#737#0" expanded="false" />
-                <element signature="e#770#771#0" expanded="false" />
-                <element signature="e#826#827#0" expanded="false" />
-                <element signature="e#852#853#0" expanded="false" />
-                <element signature="e#890#891#0" expanded="false" />
-                <element signature="e#920#921#0" expanded="false" />
-                <element signature="e#982#983#0" expanded="false" />
-                <element signature="e#1011#1012#0" expanded="false" />
-                <element signature="e#1055#1056#0" expanded="false" />
-                <element signature="e#1091#1092#0" expanded="false" />
-              </folding>
+            <state line="21" column="0" selection-start="700" selection-end="706" vertical-scroll-proportion="3.2692308" vertical-offset="255" max-vertical-offset="782">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -198,28 +149,8 @@
       <file leaf-file-name="PersonneBean.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fr/abdel/bean/PersonneBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="0" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.0" vertical-offset="333" max-vertical-offset="850">
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#463#464#0" expanded="false" />
-                <element signature="e#488#489#0" expanded="false" />
-                <element signature="e#522#523#0" expanded="false" />
-                <element signature="e#550#551#0" expanded="false" />
-                <element signature="e#652#653#0" expanded="false" />
-                <element signature="e#686#687#0" expanded="false" />
-                <element signature="e#716#717#0" expanded="false" />
-                <element signature="e#742#743#0" expanded="false" />
-                <element signature="e#780#781#0" expanded="false" />
-                <element signature="e#810#811#0" expanded="false" />
-                <element signature="e#843#844#0" expanded="false" />
-                <element signature="e#872#873#0" expanded="false" />
-                <element signature="e#916#917#0" expanded="false" />
-                <element signature="e#952#953#0" expanded="false" />
-                <element signature="e#993#994#0" expanded="false" />
-                <element signature="e#1026#1027#0" expanded="false" />
-                <element signature="e#1082#1083#0" expanded="false" />
-                <element signature="e#1126#1127#0" expanded="false" />
-              </folding>
+            <state line="65" column="0" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.0" vertical-offset="333" max-vertical-offset="816">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -228,13 +159,16 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/fr/abdel/bo/impl/PersonneBoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="29" column="0" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#393#394#0" expanded="false" />
-                <element signature="e#427#428#0" expanded="false" />
-                <element signature="e#486#487#0" expanded="false" />
-                <element signature="e#532#533#0" expanded="false" />
-              </folding>
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonneDao.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fr/abdel/dao/PersonneDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -264,15 +198,15 @@
         <option value="$PROJECT_DIR$/../../JavaServerFaces/src/main/webapp/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/fr/abdel/HibernateSessionFactory.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/fr/abdel/ManagerBean.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/fr/abdel/bo/PersonneBo.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/abdel/model/Personne.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/abdel/data/MemberListProducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/abdel/bo/impl/PersonneBoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/abdel/bean/PersonneBean.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/fr/abdel/ManagerBean.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/abdel/bo/impl/PersonneBoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/abdel/dao/PersonneDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/abdel/dao/impl/PersonneDaoImpl.java" />
       </list>
@@ -348,7 +282,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -367,8 +300,175 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demoAbdel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demoAbdel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demoAbdel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demoAbdel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demoAbdel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demoAbdel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demoAbdel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demoAbdel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="abdel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demoAbdel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demoAbdel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="abdel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demoAbdel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demoAbdel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="abdel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demoAbdel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demoAbdel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="abdel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -380,7 +480,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JavaServerFaces" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="SearchEverywhereHistory" value="" />
@@ -604,6 +704,11 @@
       <created>1392158871549</created>
       <updated>1392158871549</updated>
     </task>
+    <task id="LOCAL-00001" summary="[evol] Initilisation la gestion de personne + EJBTransactionRolledbackException">
+      <created>1393116214278</created>
+      <updated>1393116214278</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -614,23 +719,23 @@
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23296703" sideWeight="0.84035474" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23186813" sideWeight="0.84035474" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32527474" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4032967" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23736264" sideWeight="0.15964523" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32747254" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.68477106" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22838138" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3713969" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3261339" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32747254" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -658,11 +763,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/abdel/controller/MemberRegistration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="900" selection-end="900" vertical-scroll-proportion="0.0" vertical-offset="237" max-vertical-offset="782" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/readme.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156" />
@@ -681,11 +781,6 @@
     <entry file="file://$PROJECT_DIR$/../../JavaServerFaces/src/main/java/com/abdess/common/MessageFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="4" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../JavaServerFaces/src/main/java/com/abdess/customer/dao/impl/VilleDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="5" selection-start="944" selection-end="944" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../JavaServerFaces/src/main/java/com/abdess/VilleBean.java">
@@ -740,9 +835,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="37" selection-start="3155" selection-end="3163" vertical-scroll-proportion="-4.576923" vertical-offset="1122" max-vertical-offset="2006">
-          <folding />
-        </state>
+        <state line="80" column="37" selection-start="3155" selection-end="3163" vertical-scroll-proportion="-4.576923" vertical-offset="1122" max-vertical-offset="2006" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/default.xhtml">
@@ -804,9 +897,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
-          <folding />
-        </state>
+        <state line="21" column="0" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
@@ -816,11 +907,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/fr/abdel/test/MemberRegistrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="55" selection-start="998" selection-end="998" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="646">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="26" column="55" selection-start="998" selection-end="998" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="646" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/sun/faces/jsf-api/2.1.0-b03/jsf-api-2.1.0-b03.jar!/javax/faces/bean/ManagedBean.class">
@@ -828,25 +915,14 @@
         <state line="9" column="18" selection-start="344" selection-end="344" vertical-scroll-proportion="0.23129252" vertical-offset="0" max-vertical-offset="588" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fr/abdel/ManagerBean.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="50" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="26" selection-start="806" selection-end="806" vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="663">
-          <folding />
-        </state>
+        <state line="21" column="26" selection-start="806" selection-end="806" vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="663" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="57" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
+        <state line="9" column="57" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar!/javax/persistence/criteria/CriteriaBuilder.class">
@@ -854,148 +930,121 @@
         <state line="6" column="17" selection-start="173" selection-end="173" vertical-scroll-proportion="0.15178572" vertical-offset="0" max-vertical-offset="5661" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../JavaServerFaces/src/main/java/com/abdess/UsersBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="505" selection-end="505" vertical-scroll-proportion="0.11371238" vertical-offset="0" max-vertical-offset="10251" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/abdel/bo/PersonneBo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="19" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/abdel/data/MemberListProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="4" selection-start="574" selection-end="1591" vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="884" />
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar!/javax/persistence/EntityManager.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="17" selection-start="164" selection-end="164" vertical-scroll-proportion="0.16966067" vertical-offset="0" max-vertical-offset="1547" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../JavaServerFaces/src/main/java/com/abdess/customer/dao/impl/UsersDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="26" selection-start="695" selection-end="743" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2907">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../JavaServerFaces/src/main/java/com/abdess/customer/dao/UsersDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+        <state line="8" column="17" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.5.6/spring-2.5.6.jar!/org/springframework/orm/hibernate3/HibernateTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="3808" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/abdel/model/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="866" selection-end="866" vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="884" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="279" column="27" selection-start="10562" selection-end="10562" vertical-scroll-proportion="0.85288966" vertical-offset="4256" max-vertical-offset="7310">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/abdel/dao/PersonneDao.java">
+    <entry file="file://$PROJECT_DIR$/../../JavaServerFaces/src/main/java/com/abdess/customer/dao/impl/UsersDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="19" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+        <state line="127" column="8" selection-start="3137" selection-end="3336" vertical-scroll-proportion="0.0" vertical-offset="2068" max-vertical-offset="3230">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.5.6/spring-2.5.6.jar!/org/springframework/orm/hibernate3/support/HibernateDaoSupport.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="70" selection-start="912" selection-end="1029" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="612">
+        <state line="19" column="70" selection-start="982" selection-end="982" vertical-scroll-proportion="0.48031497" vertical-offset="62" max-vertical-offset="595" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../JavaServerFaces/src/main/java/com/abdess/UsersBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="259" column="16" selection-start="5403" selection-end="5403" vertical-scroll-proportion="0.0" vertical-offset="3080" max-vertical-offset="10251">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.5.6/spring-2.5.6.jar!/org/springframework/orm/hibernate3/HibernateTemplate.class">
+    <entry file="file://$PROJECT_DIR$/../../JavaServerFaces/src/main/java/com/abdess/customer/dao/impl/VilleDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="3808">
+        <state line="31" column="35" selection-start="897" selection-end="917" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1207">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/abdel/model/Member.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fr/abdel/ManagerBean.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="866" selection-end="866" vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="884">
+        <state line="10" column="57" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/abdel/bo/PersonneBo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="17" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/abdel/model/Personne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="8" selection-start="8" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#519#520#0" expanded="false" />
-            <element signature="e#544#545#0" expanded="false" />
-            <element signature="e#578#579#0" expanded="false" />
-            <element signature="e#606#607#0" expanded="false" />
-            <element signature="e#666#667#0" expanded="false" />
-            <element signature="e#694#695#0" expanded="false" />
-            <element signature="e#736#737#0" expanded="false" />
-            <element signature="e#770#771#0" expanded="false" />
-            <element signature="e#826#827#0" expanded="false" />
-            <element signature="e#852#853#0" expanded="false" />
-            <element signature="e#890#891#0" expanded="false" />
-            <element signature="e#920#921#0" expanded="false" />
-            <element signature="e#982#983#0" expanded="false" />
-            <element signature="e#1011#1012#0" expanded="false" />
-            <element signature="e#1055#1056#0" expanded="false" />
-            <element signature="e#1091#1092#0" expanded="false" />
-          </folding>
+        <state line="13" column="13" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/abdel/controller/MemberRegistration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="700" selection-end="706" vertical-scroll-proportion="3.2692308" vertical-offset="255" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/abdel/data/MemberListProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="50" selection-start="1082" selection-end="1082" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/abdel/dao/PersonneDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/abdel/bean/PersonneBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.0" vertical-offset="333" max-vertical-offset="850">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#463#464#0" expanded="false" />
-            <element signature="e#488#489#0" expanded="false" />
-            <element signature="e#522#523#0" expanded="false" />
-            <element signature="e#550#551#0" expanded="false" />
-            <element signature="e#652#653#0" expanded="false" />
-            <element signature="e#686#687#0" expanded="false" />
-            <element signature="e#716#717#0" expanded="false" />
-            <element signature="e#742#743#0" expanded="false" />
-            <element signature="e#780#781#0" expanded="false" />
-            <element signature="e#810#811#0" expanded="false" />
-            <element signature="e#843#844#0" expanded="false" />
-            <element signature="e#872#873#0" expanded="false" />
-            <element signature="e#916#917#0" expanded="false" />
-            <element signature="e#952#953#0" expanded="false" />
-            <element signature="e#993#994#0" expanded="false" />
-            <element signature="e#1026#1027#0" expanded="false" />
-            <element signature="e#1082#1083#0" expanded="false" />
-            <element signature="e#1126#1127#0" expanded="false" />
-          </folding>
+        <state line="65" column="0" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.0" vertical-offset="333" max-vertical-offset="816">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/abdel/bo/impl/PersonneBoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="0" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#393#394#0" expanded="false" />
-            <element signature="e#427#428#0" expanded="false" />
-            <element signature="e#486#487#0" expanded="false" />
-            <element signature="e#532#533#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/abdel/dao/impl/PersonneDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+        <state line="36" column="0" selection-start="1123" selection-end="1123" vertical-scroll-proportion="1.167939" vertical-offset="0" max-vertical-offset="714">
           <folding>
-            <element signature="e#555#565#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="280" column="22" selection-start="10585" selection-end="10585" vertical-scroll-proportion="0.882662" vertical-offset="4256" max-vertical-offset="7310">
-          <folding />
         </state>
       </provider>
     </entry>
