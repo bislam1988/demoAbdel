@@ -19,6 +19,7 @@ public class Personne implements Serializable {
     private String email;
     private String nom;
     private String prenom;
+    private String pwd;
 
     @Id
     @Column(name = "id")
@@ -55,5 +56,14 @@ public class Personne implements Serializable {
 
     public void setPrenom(String prenom) {
         this.prenom = prenom;
+    }
+
+    @Column(name = "pwd")
+    public String getPwd() {
+        return pwd;
+    }
+
+    public void setPwd(String pwd) {
+        this.pwd = pwd;
     }
 }

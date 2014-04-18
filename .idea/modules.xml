@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../../JavaServerFaces/JavaServerFaces.iml" filepath="$PROJECT_DIR$/../../JavaServerFaces/JavaServerFaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/demoAbdel.iml" filepath="$PROJECT_DIR$/demoAbdel.iml" />
     </modules>
   </component>
