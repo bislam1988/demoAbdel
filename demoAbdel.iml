@@ -52,6 +52,14 @@
     <orderEntry type="library" name="Maven: org.springframework:spring:2.5.6" level="project" />
     <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.primefaces:primefaces:4.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.zxing:core:2.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.zxing:javase:2.0" level="project" />
+    <orderEntry type="library" name="Maven: net.sf.jodreports:jodreports:2.4.0" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.6.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:1.4" level="project" />
+    <orderEntry type="library" name="Maven: org.freemarker:freemarker:2.3.16" level="project" />
+    <orderEntry type="library" name="Maven: xom:xom:1.2.5" level="project" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.2" level="project" />
   </component>
 </module>
 

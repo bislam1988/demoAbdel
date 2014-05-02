@@ -17,7 +17,7 @@
     <!-- Pour la session d'affichage -->
     <managed-bean>
         <managed-bean-name>personne</managed-bean-name>
-        <managed-bean-class>fr.abdel.bean.PersonneBean</managed-bean-class>
+        <managed-bean-class>fr.abdel.bean.view.PersonneBean</managed-bean-class>
         <managed-bean-scope>session</managed-bean-scope>
         <managed-property>
             <property-name>personneBo</property-name>
@@ -27,13 +27,19 @@
 
     <managed-bean>
         <managed-bean-name>Bean</managed-bean-name>
-        <managed-bean-class>fr.abdel.bean.PersonneBean</managed-bean-class>
+        <managed-bean-class>fr.abdel.bean.view.PersonneBean</managed-bean-class>
         <managed-bean-scope>session</managed-bean-scope>
     </managed-bean>
 
     <managed-bean>
         <managed-bean-name>growlBean</managed-bean-name>
         <managed-bean-class>fr.abdel.bean.view.GrowlBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+
+    <managed-bean>
+        <managed-bean-name>qrCodeBean</managed-bean-name>
+        <managed-bean-class>fr.abdel.bean.view.QRCodeBean</managed-bean-class>
         <managed-bean-scope>session</managed-bean-scope>
     </managed-bean>
 
