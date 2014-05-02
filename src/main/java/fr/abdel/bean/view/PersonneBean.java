@@ -1,4 +1,4 @@
-package fr.abdel.bean;
+package fr.abdel.bean.view;
 
 import fr.abdel.bo.PersonneBo;
 import fr.abdel.model.Personne;
